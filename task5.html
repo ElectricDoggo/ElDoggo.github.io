@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>task5</title>
+        <link rel="stylesheet" type="text/css" href="str.css">
+        </head>
+    <body>
+        <h1><center>АНКЕТА</center></h1>
+        <body background="white.jpg"></body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+	  
+        <div> 
+            <p>Ваше имя:
+            <label for="name"></label>
+          <input id="name" type="text" class="validate">
+            </p>
+        </div>
+		<div>
+            <p>Ваш возраст:
+            <label for="age"></label>
+          <input id="age" type="text" class="validate">
+          </p>
+	  </div>
+		<div>
+            <p>Ваш пол:
+            <label for="sex"></label>
+          <input id="sex" type="text" class="validate">
+        </p>
+        </div>
+
+        <form>   
+		<p id="startTest" class="my-button"><b> Заполните анкету:</b> </p>
+	  
+		<p> <input type="checkbox" id="education" onclick="myFunction()"> <label for="education">Высшее образование</label> </p>
+	  	<p> <input type="checkbox" id="math"> <label for="math">Знание математики</label> </p>
+	  	<p> <input type="checkbox" id="knowjs" onclick="myFunction()"> <label for="knowjs">Знание Java Script</label> </p>
+	  	<p> <input type="checkbox" id="tables"> <label for="tables">Умение составлять таблицы</label> </p>
+	  	<p> <input type="checkbox" id="database"> <label for="database">Умение работать с базами данных</label> </p>
+		<p> <input type="checkbox" id="ranaway"> <label for="ranaway">Способность сбегать с работы раньше времени</label> </p>
+        <div id="div1"></div>
+
+        <p>Комментарий<Br>
+            <textarea name="comment" cols="40" rows="3"></textarea></p>
+           <p><input type="submit" value="Отправить">
+            <input type="reset" value="Очистить"></p>
+
+	</form>
+ <script type="text/javascript" src="js/link.js"></script>	
+</div>
+</div>
+
+</div>
+    </body>
+  </html>
+
+
+
+
